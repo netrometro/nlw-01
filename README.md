@@ -1,2 +1,2 @@
-# nlw-01
+# NLW #01
 Projeto construído durante o Next Level Week #01
