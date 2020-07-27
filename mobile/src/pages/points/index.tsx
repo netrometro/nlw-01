@@ -61,12 +61,12 @@ const Points = () => {
       params: {
         city: 'Caruaru',
         uf: 'PE',
-        items: [1,2]
+        items: selectedItems
       }
     }).then(response => {
       setPoints(response.data);
     });
-  }, []);
+  }, [handleSelectItem]);
 
   function handleNavigateBack() {
     navigation.goBack();
